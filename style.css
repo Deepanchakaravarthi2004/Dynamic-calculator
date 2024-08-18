@@ -10,7 +10,7 @@ body{
     align-items: center;
     flex-direction: column;
     width:100%;
-    height: 100vh;
+    height: 100%;
     background-image:url(./images/2423223.jpg);
     background-blend-mode:lighten;
     background-repeat: no-repeat;
@@ -30,9 +30,9 @@ h1
     font-weight: bolder;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing:5px;
-    animation: load 2s  ease-in-out infinite alternate-reverse;
+/*     animation: load 2s  ease-in-out infinite alternate-reverse;
     border-radius: 20%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255); */
     
 
 }
