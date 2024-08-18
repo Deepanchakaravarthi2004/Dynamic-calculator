@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<h1>Dynamic Calculator</h1>
+<form>
+<div class="display">
+    <input class="input" type="text" placeholder="Enter the Numbers..."  name="disp">
+</div>
+<div class="numbers">
+    <input type ="button" class="num1" onclick="disp.value+='1'" value="1">
+    <input type ="button"class="num2"  onclick="disp.value+='2'" value="2">
+    <input type ="button" class="num3" onclick="disp.value+='3'" value="3">
+    <input type ="button" class="op1"  onclick="disp.value+='+'" value="+">
+    <input type ="button" class="num4" onclick="disp.value+='4'" value="4">
+    <input type ="button" class="num5" onclick="disp.value+='5'" value="5">
+    <input type ="button" class="num6" onclick="disp.value+='6'" value="6">
+    <input type ="button" class="op2"  onclick="disp.value+='-'" value="-">
+    <input type ="button" class="num7" onclick="disp.value+='7'" value="7">
+    <input type ="button" class="num8" onclick="disp.value+='8'" value="8">
+    <input type ="button" class="num9" onclick="disp.value+='9'" value="9">
+    <input type ="button" class="op3"  onclick="disp.value+='*'" value="*">
+    <input type ="button" class="clear"onclick="disp.value =''" value="AC">
+    <input type ="button" class="num0" onclick="disp.value+='0'" value="0">
+    <input type ="button" class="op4"  onclick="disp.value+='%'" value="%">
+    <input type ="button" class="equal"onclick="disp.value = eval(disp.value)" value="=">
+</div>
+</form>
+<!-- <img class="im" src="./images/comp.jpg"> -->
+</body>
+</html>
